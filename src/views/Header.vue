@@ -26,7 +26,10 @@ export default {
 </script>
 <style lang="sass" scoped>
 .nabarx
-  height: 10vh
+  height: 60px
+  position: fixed
+  z-index: 100
+  background-color: rgb(255, 255, 255) !important
   .navTitle
     color: green !important
 </style>
