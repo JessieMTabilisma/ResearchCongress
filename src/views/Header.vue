@@ -28,7 +28,7 @@ export default {
 .nabarx
   height: 60px
   position: fixed
-  z-index: 100
+  z-index: 1000
   background-color: rgb(255, 255, 255) !important
   .navTitle
     color: green !important

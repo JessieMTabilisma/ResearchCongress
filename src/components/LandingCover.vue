@@ -54,17 +54,22 @@ export default {};
       .ul-style
         .li-style
           list-style-type: none
-          font-size: 65px !important
-          font-weight: 700
+          font-weight: 900
           color: rgb(255, 255, 255)
         .year
           color: #feca57
+          font-size: 45px !important
+        .title1
+          font-size: 65px !important
+        .title2
+          font-size: 55px !important
         .line-divider
           height: 2vh
-          width: 12vw
+          width: 8vw
           background-color: #feca57
           border: none
         .register-button
           font-weight: 500 !important
           padding: 15px 25px 15px 25px
+          top: 5vh
 </style>
