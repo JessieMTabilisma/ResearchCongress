@@ -12,7 +12,9 @@
             <hr class="line-divider">
             <li class="li-style title1">ICT</li>
             <li class="li-style title2">Research Congress</li>
-            <vs-button color="success" type="gradient" class="register-button">REGISTER NOW</vs-button>
+            <router-link to="/registration">
+              <vs-button color="success" type="gradient" class="register-button">REGISTER NOW</vs-button>
+            </router-link>
           </ul>
         </vs-col>
       </vs-row>
@@ -32,7 +34,7 @@ export default {};
     height: 100vh
     width: 100%
     position: fixed
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0, 0, 0, 0.7)
     margin-top: -10vh
   #video-background
     position: fixed
