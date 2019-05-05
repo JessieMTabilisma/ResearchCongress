@@ -17,4 +17,4 @@ after_success:
 on:
   branch:
   - dev
-  project: Research-Congress
+  project: research-congress
