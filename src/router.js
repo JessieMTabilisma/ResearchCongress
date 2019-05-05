@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Contact from './components/Contact.vue';
+import FAQs from './components/FAQs.vue';
 import CallForPapers from './components/CallForPapers.vue';
 import Registration from './components/Registration.vue';
 
@@ -16,6 +18,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/contact-us',
+      name: 'contactus',
+      component: Contact
+    },
+    {
       path: '/call-for-papers',
       name: 'callforpapers',
       component: CallForPapers
@@ -24,6 +31,11 @@ export default new Router({
       path: '/registration',
       name: 'registration',
       component: Registration
+    },
+    {
+      path: '/faqs',
+      name: 'FAQs',
+      component: FAQs
     }
   ]
 });

@@ -18,7 +18,7 @@ export default {};
 </script>
 <style lang="sass" scoped>
 .wrapper-about 
-  height: 100vh
+  height: 80vh
   width: 100%
   position: absolute
   margin-top: 180vh

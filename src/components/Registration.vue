@@ -8,7 +8,7 @@
             <vs-input size="large" label-placeholder="Email" v-model="email" class="input"/>
             <vs-input size="large" label-placeholder="Course" v-model="course" class="input"/>
             <vs-input size="large" label-placeholder="School" v-model="school" class="input"/>
-            <vs-checkbox v-model="checkBox1" class="checkbox">Im responsibe for my action.</vs-checkbox>
+            <vs-checkbox v-model="terms" class="checkbox">Im responsibe for my action.</vs-checkbox>
             <vs-button type="gradient" class="register">REGISTER</vs-button>
           </div>
         </div>
@@ -17,7 +17,17 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      name: "",
+      email: "",
+      course: "",
+      school: "",
+      terms: ""
+    };
+  }
+};
 </script>
 <style lang="sass" scoped>
 .wrapper-registration
@@ -26,7 +36,7 @@ export default {};
   position: absolute
   margin-top: 10vh
   .form
-    height: 60vh
+    min-height: 60vh
     width:  100%
     position: relative
     top: 120px
@@ -47,6 +57,7 @@ export default {};
         margin-left: 15%
       .register
         margin-top: 20px
+        margin-bottom: 5%
         width: 50%
         height: 40px
 </style>

@@ -8,9 +8,9 @@
       <vs-row>
         <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="6" class="title-header">
           <ul class="ul-style">
-            <li class="li-style year">2019</li>
+            <li class="li-style year">13th</li>
             <hr class="line-divider">
-            <li class="li-style title1">ICT</li>
+            <li class="li-style title1">North Luzon ICT</li>
             <li class="li-style title2">Research Congress</li>
             <router-link to="/registration">
               <vs-button color="success" type="gradient" class="register-button">REGISTER NOW</vs-button>
@@ -62,9 +62,10 @@ export default {};
           color: #feca57
           font-size: 45px !important
         .title1
-          font-size: 65px !important
+          font-size: 50px !important
+          font-weight: 500
         .title2
-          font-size: 55px !important
+          font-size: 65px !important
         .line-divider
           height: 2vh
           width: 8vw
